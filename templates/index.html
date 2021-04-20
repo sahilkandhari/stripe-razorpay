@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <section class="section">
+    <div class="radio">
+      
+      <input type="radio" id="rzrp" name="select" value="rzrp">
+      <label for="rzrp">Razorpay</label><br>
+      <input type="radio" id="strp" name="select" value="strp">
+      <label for="strp">Stripe</label><br>
+      
+    </div>
+    <div class="container">
+      <button class="button is-primary" id="submitBtn">Purchase!</button>
+    </div>
+  </section>
+{% endblock %}
